@@ -8,9 +8,6 @@ function isEnoughCapacity(products, containerSize) {
 }
 
 
-
-
-
 console.log(
   isEnoughCapacity({ apples: 2, grapes: 3, carrots: 1 }, 8)
 ); // true
@@ -26,3 +23,9 @@ console.log(
 console.log(
   isEnoughCapacity({ apples: 18, potatoes: 5, oranges: 2 }, 7)
 ); // false
+
+
+
+// console.log(
+//   isEnoughCapacity({ apples: 18, potatoes: 5, oranges: 2 }, 7)
+// ); // false
